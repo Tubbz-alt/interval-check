@@ -1,5 +1,5 @@
 class IntervalCheckFormula < Formula
-  homepage "https://github.com/AdamSimpson/IntervalCheck.git"
+  homepage "https://github.com/AdamSimpson/interval-check.git"
   url "none"
 
   concern for_version("dev") do
@@ -25,7 +25,7 @@ class IntervalCheckFormula < Formula
 
 	Dir.chdir "#{prefix}"
         system "rm -rf source"
-        system "git clone https://github.com/AdamSimpson/IntervalCheck.git source"
+        system "git clone https://github.com/AdamSimpson/interval-check.git source"
 
 	Dir.chdir "#{prefix}/source"
 
