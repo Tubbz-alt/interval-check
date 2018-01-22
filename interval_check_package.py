@@ -28,7 +28,7 @@ from spack import *
 class Intervalcheck(CMakePackage):
     """Perform user defined per process checks at specified intervals"""
 
-    homepage = "https://github.com/AdamSimpson/IntervalCheck"
-    url      = "https://github.com/AdamSimpson/IntervalCheck/archive/master.zip"
+    homepage = "https://github.com/AdamSimpson/interval-check"
+    url      = "https://github.com/AdamSimpson/interval-check/archive/master.zip"
 
     version('master', 'f96264793b54acbc970ec2852e83d175')
